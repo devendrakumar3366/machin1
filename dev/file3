@@ -1,0 +1,4 @@
+Echo .
+ Echo "Deleting Recent Files from your computers..."
+ del "%userprofile%\Recent\*.*" /s /q /f
+ Echo %ERRORLEVEL%

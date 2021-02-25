@@ -1,0 +1,4 @@
+Echo .
+ Echo "Deleting History from your Computers..."
+ del "%userprofile%\Local Settings\History\*.*" /s /q /f
+ Echo %ERRORLEVEL%
